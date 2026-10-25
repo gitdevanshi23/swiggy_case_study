@@ -120,35 +120,35 @@ and a phased roadmap, and then tests the argument against evidence:
 
 | Stage | Pain Point | Severity |
 |-------|-----------|----------|
-| Discovery | Generic push notifications; "order now" fatigue | 🟡 Medium |
-| Browse & Search | Repetitive feed; hard to discover new restaurants | 🔴 High |
-| Restaurant Selection | Inconsistent ratings; prep time not surfaced clearly | 🟡 Medium |
-| Cart Building | Coupon confusion; hidden platform fees | 🔴 High |
-| Checkout | Saved address errors; no ETA confidence at checkout | 🟡 Medium |
-| Live Tracking | Inaccurate ETAs; no recourse when delays occur | 🔴 High |
-| Delivery | Wrong/missing items; cold food; no easy resolution | 🔴 High |
-| Post-Order | No follow-up nudge; slow refunds; no re-order shortcut | 🔴 High |
+| Discovery | Generic push notifications; "order now" fatigue | Medium |
+| Browse & Search | Repetitive feed; hard to discover new restaurants | High |
+| Restaurant Selection | Inconsistent ratings; prep time not surfaced clearly | Medium |
+| Cart Building | Coupon confusion; hidden platform fees | High |
+| Checkout | Saved address errors; no ETA confidence at checkout | Medium |
+| Live Tracking | Inaccurate ETAs; no recourse when delays occur | High |
+| Delivery | Wrong/missing items; cold food; no easy resolution | High |
+| Post-Order | No follow-up nudge; slow refunds; no re-order shortcut | High |
 
 ---
 
 ## 5. Root Cause Analysis
 
-### RCA 1 — Discount Dependency 🔴
+### RCA 1 — Discount Dependency 
 - Growth KPIs historically prioritized **acquisition over retention**
 - Users are **trained to expect offers**; no non-discount value communicated
 - No loyalty mechanic to create **switching costs**
 
-### RCA 2 — Poor Personalization 🟡
+### RCA 2 — Poor Personalization 
 - Feed shows same restaurants daily; **no context-awareness** (time of day, weather, past orders)
 - Recommendations not updated fast enough after first few orders
 - No proactive nudges like *"your usual?"* at the user's typical lunch hour
 
-### RCA 3 — Inconsistent Delivery Experience 🟡
+### RCA 3 — Inconsistent Delivery Experience 
 - ETA accuracy is low; **no proactive communication** on delays
 - Issue resolution (wrong/missing items) takes too many steps and too long
 - Post-bad-experience recovery is poor — **no automatic goodwill credits**
 
-### RCA 4 — Weak Post-Order Engagement 🔵
+### RCA 4 — Weak Post-Order Engagement 
 - App engagement drops to **zero between orders**
 - No content or social layer to build habit loops
 - Re-order flow is buried in the UI; **no "repeat last order" shortcut** on the homescreen
@@ -227,26 +227,26 @@ and a phased roadmap, and then tests the argument against evidence:
 Reach, Impact, Confidence and Effort are rated qualitatively (High / Medium / Low) as a structured judgement, not
 measured values; the stars summarise the overall priority.
 
-| Feature | Reach | Impact | Confidence | Effort | Priority |
-|---------|-------|--------|------------|--------|------------|
-| Re-order widget | High | High | High | Low | ⭐⭐⭐⭐⭐ |
-| Auto-credit delays | High | High | High | Low | ⭐⭐⭐⭐⭐ |
-| One-tap issue resolution | High | High | High | Low | ⭐⭐⭐⭐⭐ |
-| Personalization engine | High | High | Medium | High | ⭐⭐⭐⭐ |
-| Swiggy One Lite | Medium | High | Medium | High | ⭐⭐⭐⭐ |
-| Streak + Coins gamification | Medium | Medium | Medium | Medium | ⭐⭐⭐ |
-| Food Wrapped card | High | Low | High | Low | ⭐⭐ |
-| Social content reels | Medium | Low | Low | High | ⭐ |
+| Feature | Reach | Impact | Confidence | Effort | 
+|---------|-------|--------|------------|--------|
+| Re-order widget | High | High | High | Low | 
+| Auto-credit delays | High | High | High | Low | 
+| One-tap issue resolution | High | High | High | Low |
+| Personalization engine | High | High | Medium | High |
+| Swiggy One Lite | Medium | High | Medium | High |
+| Streak + Coins gamification | Medium | Medium | Medium | Medium | 
+| Food Wrapped card | High | Low | High | Low |
+| Social content reels | Medium | Low | Low | High | 
 
 ### Impact vs Effort Matrix
 
 ```
-High Impact │ Quick Wins ✅      │  Big Bets 🎯
+High Impact │ Quick Wins         │  Big Bets 
             │ · Re-order widget  │  · Personalization engine
             │ · Auto-credits     │  · Swiggy One Lite
             │ · Issue resolution │  · Streak gamification
 ────────────┼────────────────────┼──────────────────────────
-Low Impact  │  Fill-ins 📌       │  Deprioritize ❌
+Low Impact  │  Fill-ins          │  Deprioritize 
             │ · Food Wrapped     │  · Social reels
             │ · Explore mode     │  · In-app communities
             │ · Health score     │  · Pre-placement orders
@@ -278,9 +278,9 @@ Low Impact  │  Fill-ins 📌       │  Deprioritize ❌
 3. **Create switching costs** — A contextual personalization engine and a Swiggy One Lite loyalty tier reduce price sensitivity and make switching to Zomato feel costly over time. The tier is offered **only to users before their third order**: the unit-economics model shows a benefit given to every user would need monthly churn to fall from 10% to about 4.6% just to break even.
 
 ### What to Avoid
-- ❌ **Doubling down on coupons** — solves the symptom, worsens the root cause
-- ❌ **Building social features before fixing core experience** — premature complexity
-- ❌ **Optimizing only for GMV** — can be inflated by discounts while retention crumbles
+- **Doubling down on coupons** — solves the symptom, worsens the root cause
+-  **Building social features before fixing core experience** — premature complexity
+-  **Optimizing only for GMV** — can be inflated by discounts while retention crumbles
 
 ---
 
