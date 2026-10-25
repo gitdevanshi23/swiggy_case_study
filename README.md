@@ -1,4 +1,4 @@
-# Customer Retention Strategy – Swiggy Case Study 🍔
+# Customer Retention Strategy – Swiggy Case Study 
 
 A product and business case on one question: **how can Swiggy keep customers ordering after the first-order
 discounts end?** It moves from problem framing and customer segmentation to root causes, prioritised solutions
@@ -60,25 +60,25 @@ and a phased roadmap, and then tests the argument against evidence:
 
 ## 2. User Segmentation
 
-### Segment 1 — Discount Chasers 🔴
+### Segment 1 — Discount Chasers 
 - Order **only when coupons are available**; high churn post-offer
 - Typically new users, students, or price-sensitive demographics
 - **Churn trigger:** Offer expires or competitor has a better deal
 - **Retention lever:** Loyalty programs, value bundles, Swiggy One perks
 
-### Segment 2 — Convenience Seekers 🟡
+### Segment 2 — Convenience Seekers 
 - Order **1–2x/week** for convenience (busy professionals, working couples)
 - Drop off when delivery time is slow or food quality is inconsistent
 - **Churn trigger:** 2–3 bad delivery experiences in a row
 - **Retention lever:** Speed guarantees, Swiggy Bolt, reliable restaurant curation
 
-### Segment 3 — Power Users 🟢
+### Segment 3 — Power Users 
 - Order **4+ times/week**; high LTV, likely Swiggy One subscribers
 - Churn when personalization feels stale or app experience degrades
 - **Churn trigger:** Better recommendation engine on a competitor app
 - **Retention lever:** Personalization, exclusive benefits, gamification
 
-### Segment 4 — Dormant Users 🔵
+### Segment 4 — Dormant Users 
 - Ordered **1–3 times, then went silent** (30+ days inactive)
 - Often left due to a bad first experience or switched to Zomato
 - **Churn trigger:** Single bad experience with no recovery
